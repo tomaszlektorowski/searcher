@@ -1,11 +1,22 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 import '../style.css';
-const App = () => {
-    return (
-        <div className="ui container"><SearchBar /></div>
-    );
+
+class App {
+    onSearchSubmit(term) {
+        console.log(term);
+
+    }
+
+    render() {
+        return (
+            <div className="ui container">
+                <SearchBar onSearchSubmit={this.onSearchSubmit} />
+            </div>
+        );
+    }
 }
+
 
 
 export default App;
