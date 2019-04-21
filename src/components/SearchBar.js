@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style.css';
 
 class SearchBar extends React.Component {
     state = { term: '' };
@@ -12,16 +11,14 @@ class SearchBar extends React.Component {
             <div className="ui segment">
                 <form onSubmit={this.onFormSubmit} className="ui form">
                     <div className="field">
-                        <label>Image searching</label>
+                        <label htmlFor="field">Image searching</label>
                         <input type="text" value={this.state.term} onChange={
                             (e) => {
                                 this.setState({ term: e.target.value });
-                                console.log(this.state.term);
                             }
                         }>
                         </input>
                     </div>
-
                 </form>
             </div>
         );
