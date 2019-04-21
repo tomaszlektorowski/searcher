@@ -16,7 +16,7 @@ semantic ui css library
 3. In command line interface, proceed to project directory and type in:
 ```
 npm install
-npm run
+npm start
 ```
 The app will be available at the http://localhost:3000 adress
 
