@@ -7,7 +7,7 @@ CSS3,
 npm,
 create-react-app template,
 axios,
-semantic ui
+semantic ui css library
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ npm run
 ```
 The app will be available at the http://localhost:3000 adress
 
-Note that due limitations of unsplash api only 50 querries can make within 1 hour.
+Note that due limitations of unsplash api, only 50 querries can be made within 1 hour.
 
 ## Author
 
